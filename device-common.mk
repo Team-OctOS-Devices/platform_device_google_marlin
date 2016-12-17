@@ -471,3 +471,20 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # fingerprint sensor type
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.fingerprint=fpc
+
+# mobile data provision prop
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.com.android.prov_mobiledata=false
+
+# drm props
+PRODUCT_PROPERTY_OVERRIDES += \
+    drm.service.enabled=true \
+    media.mediadrmservice.enable=true
+
+# facelock props
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.facelock.black_timeout=700 \
+    ro.facelock.det_timeout=2500 \
+    ro.facelock.rec_timeout=3500 \
+    ro.facelock.est_max_time=600
+

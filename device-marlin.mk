@@ -75,4 +75,3 @@ PRODUCT_PACKAGES += \
 # VR packages
 PRODUCT_PACKAGES += \
     vr.marlin
-

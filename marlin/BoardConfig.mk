@@ -203,6 +203,10 @@ BOARD_USES_SYSTEM_OTHER_ODEX := true
 -include vendor/google/marlin/BoardConfigVendor.mk
 # Build a separate vendor.img
 TARGET_COPY_OUT_VENDOR := vendor
+BOARD_NEEDS_VENDORIMAGE_SYMLINK := true
+
+# Enable workaround for slow ROM flash
+BOARD_SUPPRESS_SECURE_ERASE := true
 
 #NFC
 NXP_CHIP_TYPE := PN551

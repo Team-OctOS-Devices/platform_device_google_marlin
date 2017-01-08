@@ -96,7 +96,7 @@ endif
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=sailfish user_debug=31 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 cma=32M@0-0xffffffff
 
 TARGET_KERNEL_CONFIG := pixel_defconfig
-TARGET_KERNEL_SOURCE := kernel/google/pixel
+TARGET_KERNEL_SOURCE := kernel/google/marlin
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64

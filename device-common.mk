@@ -1,9 +1,3 @@
-GAPPS_VARIANT := nano
-PRODUCT_PACKAGES += Hotword
-$(call inherit-product, vendor/google/build/opengapps-packages.mk)
-PRODUCT_COPY_FILES += \
-  vendor/opengapps/sources/all/etc/sysconfig/nexus.xml:system/etc/sysconfig/nexus.xml
-
 #
 # Copyright (C) 2016 The Android Open-Source Project
 #

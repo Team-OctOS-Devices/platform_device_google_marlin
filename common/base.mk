@@ -661,6 +661,8 @@ PRODUCT_PACKAGES := \
 ifneq ($(TARGET_USES_AOSP),true)
 PRODUCT_PACKAGES += \
        BluetoothExt \
+       HiddTestApp \
+       BTLogKit \
        a4wpservice \
        wipowerservice
 endif
